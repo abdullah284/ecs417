@@ -1,0 +1,19 @@
+table{
+border: solid 1pt black;
+}
+thead{
+background-color: lightgrey;
+}
+tr{
+border: solid 1pt black;
+}
+th{
+border: solid 1pt black;
+}
+td{
+border: solid 1pt black;
+}
+caption{
+	background-color: darkred;
+	color: white;
+}

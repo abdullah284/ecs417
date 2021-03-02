@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+     Form   
+    </title>
+
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="exercise4.css"> 
+                <!--adding the stylesheets-->
+
+</head>
+<body>
+
+<form action = "
+http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php" method = "post">
+<fieldset>
+    <legend id = "top">Shirt Order Form</legend>
+    <fieldset>
+	<label for = "size"> Choose size: </label>
+    <select id = "size" name = "size">           <!--size id is created to link label and input-->
+
+        <option value = "Size">Choose Size</option>
+    	<option valie = "XL">XL</option>
+    	<option value = "L">L</option>
+    	<option valie = "M">M</option>
+    	<option value = "S">S</option>
+    	<option valie = "XS">XS</option>                      
+<!--have 5 possible options-->
+    </select>         
+<br>
+<p4> Sleeves</p4>
+<br>
+<input checked type = "radio" name = "sleeves" value = "1">Short<br>
+<input type = "radio" name = "sleeves" value = "2">Long<br>
+<!--radio input which only allows one category selected. short is selected by defaulr but yu can cchange it-->
+<br>
+<label for = "color"> Choose shirt colour</label><br>
+<input type = "color" id = "color" name = "color" value = "#000000">
+
+<br>
+<label for = "quantity"> Quantity</label><br>
+<input min = "1" max = "10" type = "number" id = "quantity" name = "quantity">
+<br>
+
+<label for = "date"> Date Required</label><br>
+<input type = "date" id = "date" name = "date">
+</fieldset>
+
+<fieldset>
+    <label for = "name" >Name</label><br>
+    <input type = "text" id = "name" name = "name"><br>    
+
+    <label for = "email"> Email Address</label><br>
+    <input type = "email" id = "email" name = "email"> <br>
+<!--email input used to ensure an email is typed-->
+    <label for = "number"> Telephone Number</label><br>  
+
+<!--number input added to ensure validation of a number-->
+
+    <input type = "number" id = "number" name = "number">
+<p4> Example: 44-207-882-1234</p4> <br>
+</fieldset>
+
+<fieldset>
+    <label for = "address"> Address</label><br>
+    <input type = "text" id = "address" name = "address"><br>
+    
+    <label for = "city"> City</label><br>
+    <input list = "cities" id = "city" name = "city">
+<datalist id="cities">
+    <option value="London">
+    <option value="Manchester">
+    <option value="Sheffield">
+    <option value="Leeds"> <!--four cities already added to dataset to make a faster filling process-->
+  </datalist>
+
+
+      <br>
+
+
+    <label for = "postcode"> Postcode</label><br>
+    <input type = "text" id = "postcode" name = "postcode"><br>
+</fieldset>
+
+<fieldset>
+   
+    <label for = "informed">Please keep me informed about future short designs</label>
+
+<input type="checkbox" id = "informed" name="informed"><br>
+
+
+<input type="submit" value="Submit">
+<input type="reset">
+<!--submit button submits form, reset button empties form to be filled again-->
+
+</fieldset>
+</fieldset>
+
+
+</form>
+</body>
+</html>
