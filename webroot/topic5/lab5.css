@@ -1,0 +1,83 @@
+
+ 
+
+.title{
+border: 2px solid black;
+background-color: lightgreen;
+float:top;
+
+}
+
+.side{
+	display: inline;
+	position: relative;
+	left:20em;
+	bottom:3em;
+	padding:3em;
+}  
+
+img{
+	position: relative;
+	left:20em;
+	
+}
+
+#left
+{
+	float:left;
+	width:25em;
+}
+ 
+#middle{
+	margin-left: 30em;
+	margin-right: 30em;
+}
+
+
+.whitehobbies{
+background-color: white;
+width: 15em;
+position: relative;
+left:1em;
+
+}
+
+
+
+aside{
+	float:right;
+	width:20em;
+}
+
+.whiteback{
+	background-color: white;
+
+width: 20em;
+position: relative;
+left:1em;
+
+
+	
+}
+
+.3{
+	position:relative;
+	left:1em;
+}
+
+.medal{
+position:relative;
+left:0.2em;
+
+}
+
+ 
+.greenheading
+{
+background-color: lightgreen;
+}
+
+.greybackground
+{
+	background-color: lightgrey;
+}
