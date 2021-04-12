@@ -1,0 +1,269 @@
+/**
+home///////////////
+**/
+
+.head{
+ background-color:black;
+
+
+
+}  /** applies to "Abdullah Waheed" title **/
+
+
+.loginbutton{
+  border: none;
+  color: white;
+  padding: 4% 6%;
+  border:solid 6pt black;
+
+  margin-left:30%;
+  margin-top:10%;
+  background-color:grey;
+
+}  
+
+
+#AW   
+{  /** applies to text in "Abdullah Waheed"**/
+ 
+  color: grey;
+  font-family: "Courier New";
+  font-size: 200%;
+margin-left: 40%;
+  
+}
+
+
+
+
+
+#mainbody
+{
+background-image: url('tech.jpg');
+font-family: "Courier New";
+font-size:200%;
+}
+
+
+
+.linktop{
+background-color:black;
+
+       /** this is for the 2 nav links in the homepage which go to different html files **/
+}
+.linkmid{
+  background-color:black;
+
+
+}
+
+#mainfig{
+  color:grey;
+  position:absolute;     /** my picture in the homepage**/
+  background-color:black;
+}   
+
+.l{
+display: inline-block;
+padding-left:1%;    /** this is to properly arrane the link in homepage **/
+padding-right:1%;
+width:30%;
+line-height:1%;
+}
+
+
+#phone,#gmail,#insta{
+  border:solid 6pt black;
+width:5%;  
+}
+
+.social{
+display: inline;
+margin-bottom: 0%;  /** makes social links side by side**/
+}
+
+.welcome
+{
+    background-color:black;
+        color:grey;
+         text-align: center;  /** main "welcome" title**/
+}
+
+.pic{
+
+  margin-right:20%;         /** arrangement and background for my pcitrue**/
+  border:solid 8pt black;
+  
+}
+.picframe{
+
+  float:right;   /**arrangement for my picture **/
+
+    
+}
+
+
+
+/**
+about/////////////////////
+**/
+
+
+
+
+.aboutmetext{
+ background-color:white;
+
+color:grey;
+
+}
+
+.aboutmehead{
+ background-color:white;
+color:grey;
+}
+
+#aboutbody
+{
+
+ background-image: url('white.jpg');
+font-family: "Courier New";     /** background of the body of the "about.html" file **/
+color:grey;
+font-size:200%;
+}
+
+/**
+skills//////////////////
+**/
+
+
+
+#skillsbody
+{
+
+ background-image: url('white.jpg');
+font-family: "Courier New";  /** body for skills.html file **/
+color:grey;
+font-size:200%;
+display:inline-block;
+}
+
+
+
+.skillshead{
+   background-color:white;
+
+color:grey;
+}
+
+
+/**
+projects//////////////////
+**/
+
+
+
+
+#projectsbody
+{
+
+ background-image: url('white.jpg');
+font-family: "Courier New"; 
+color:grey;
+font-size:200%;
+}
+
+#game, #gamecode{
+border:6pt solid grey;   /**screenthots of my project **/
+width:50%;
+                    
+}
+
+/**
+login//////////////////
+**/
+
+
+.loginbody{
+color:white;
+background-color:orange
+}
+
+
+.centre{
+text-align: center
+}
+
+input
+{
+  font-size: 400%;      
+  text-align: center
+}
+
+#loginhead{
+  font-size:200%;
+}
+
+#login
+{
+  background-color:dodgerblue;
+  color:white;
+  width:30%;
+}
+
+.gohomelogin{
+  background-color: white;
+  width:20%;
+}
+
+/**
+blog//////////////////
+**/
+.blogbody
+{
+  color:white;
+background-color:dodgerblue;
+}
+
+
+
+#clear, #post{
+  background-color:darkblue;
+  color:white;
+  width:30%;
+}
+
+.gohomeblog{
+  background-color: white;
+  width:20%;
+}
+
+
+
+
+
+
+a:link {
+  color: grey;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  text-decoration: none;   /** special colours for the links and without any underlining **/
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+a:active {
+  color: grey;
+  text-decoration: none;
+}
+
+
+table, th, td { 
+  border: 1px solid black;
+}

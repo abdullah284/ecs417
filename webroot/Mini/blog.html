@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="webtechmini.css">
+
+</head>
+
+
+<body class = "blogbody">
+
+<header id = "bloghead" class = "centre">
+<hgroup>
+	<h1>Add Blog</h1>
+</hgroup>
+</header>
+
+<form class = "centre">
+  <label for="title"></label><br>
+  <input placeholder="Title" type="text" id="title" name="title"><br>
+<br>
+<br>
+
+ <textarea id = "textenter" placeholder="Enter your text here" rows="20%" cols="70%">
+</textarea>
+
+<br>
+<br>
+<br>
+   
+   <input id="post" type="submit"  onClick="return preventDefault()"   value="Post">
+   <input id = "clear" type="reset" onclick="return confirm_reset();" value = "Clear">
+</form>
+
+
+<script>
+
+function preventDefault() {
+    var x;
+var y = document.getElementById("textenter").value;
+
+    x = document.getElementById("title").value;
+    if (x == "") {
+        alert("Please complete the form");
+        return false;
+    };
+
+
+if (y == "") {
+        alert("Please complete the form");
+        return false;
+    };
+
+
+
+
+
+}
+
+
+
+
+
+function confirm_reset() {
+    return confirm("Are you sure you want to reset all text?");
+}
+</script>
+
+
+
+<nav>
+	<h1 class = "gohomeblog"><a href="index.php">GO BACK TO HOME</a></h1>
+</nav>
+
+
+
+</body>
+
+
+
+
+</html>
